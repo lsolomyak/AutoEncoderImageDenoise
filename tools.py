@@ -135,7 +135,6 @@ def PSNR(clean, noisy):
     psnr = 20 * log10(max_pixel / np.sqrt(mse)) 
     return psnr
 
-def 
 
 def pred_resh(data,output_size,num_wind,wind_size):
 
